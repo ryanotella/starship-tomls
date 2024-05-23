@@ -1,2 +1,7 @@
+
+[git_branch]
+format = ' [$symbol$branch(:$remote_branch)]($style) '
+
 [git_status]
 style = 'fg:164'
+
