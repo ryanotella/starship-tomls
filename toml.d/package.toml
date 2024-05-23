@@ -1,2 +1,2 @@
 [package]
-format = 'via [🎁 $version](208 bold) '
+format = ' [🎁 $version](208 bold) '
