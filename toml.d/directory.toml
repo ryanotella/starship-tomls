@@ -1,0 +1,14 @@
+[directory]
+
+format = '''[  $path ]($style) '''
+#style = "fg:#E4E4E4 bg:#3B76F0"
+style = 'black dimmed bg:#3B76F0'
+
+#truncation_symbol = '.../'
+truncation_length = 5
+truncate_to_repo = true
+
+before_repo_root_style = "bg:#fB76F0"
+
+[directory.substitutions]
+'Projects/' = 'P/'

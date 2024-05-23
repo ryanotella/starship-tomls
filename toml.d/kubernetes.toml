@@ -1,0 +1,23 @@
+[kubernetes]
+disabled = false
+format = "[$symbol$context( ($namespace))]($style) "
+style = "bold green"
+
+# Configure custom command conditions
+[[custom.kubectl]]
+command = "kubectl"
+when = "kubectl"
+format = "$kubernetes $output"
+shell = "zsh"
+
+[[custom.kube]]
+command = "kube"
+when = "kube"
+format = "$kubernetes $output"
+shell = "sh"
+
+[[custom.k]]
+command = "k"
+when = "k"
+format = "$kubernetes $output"
+shell = "sh"

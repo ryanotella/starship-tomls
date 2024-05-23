@@ -1,0 +1,14 @@
+[aws]
+#symbol = '🅰 '
+#format = 'on [$symbol($profile )(\($region\) )]($style)'
+#force_display = true
+disabled = true
+
+[custom.foo]
+command = ''' $HOME/bin/get-caller-identity ''' # shows output of command
+when = ''' [[ -n "$AWS_SESSION_TOKEN" ]] && $HOME/bin/get-caller-identity '''
+symbol = '🅰 '
+style = 'bold yellow'
+format = '[$symbol ($output )(\($region\) )]($style)'
+
+ignore_timeout = true

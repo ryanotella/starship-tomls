@@ -1,0 +1,10 @@
+[azure]
+disabled = false
+format = ' [$symbol($subscription)]($style) '
+symbol = '󰠅 '
+style = 'blue bold'
+
+[azure.subscription_aliases]
+"NSW DoE BI PreProd Dev/Test" = 'BI Dev/Test'
+"NSW DoE BI PreProd" = 'BI PreProd'
+"NSW DoE BI Services" = 'BI Prod'

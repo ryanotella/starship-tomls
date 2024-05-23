@@ -1,0 +1,12 @@
+
+[character]
+success_symbol = '[ ➜](bold green) '
+error_symbol = '[ ✗](#E84D44) '
+
+[status]
+#style = 'bg:blue'
+symbol = ''
+#success_symbol = '🟢 SUCCESS'
+format = '[\[$symbol$common_meaning$signal_name$maybe_int\]]($style)'
+map_symbol = true
+disabled = false
