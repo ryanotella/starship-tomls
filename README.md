@@ -1,4 +1,3 @@
 # starship-tomls
-# starship-tomls
-# starship-tomls
-# starship-tomls
+
+Farewell Powerlevel10k :(
