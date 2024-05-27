@@ -1,4 +1,4 @@
 [kubernetes]
 disabled = false
-format = "[$symbol$namespace///$cluster( ())]($style) "
+format = "[$symbol]($style)[$namespace](bold fg:29) [$cluster]($style) "
 style = "bold green"
