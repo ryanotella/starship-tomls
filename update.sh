@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-cd "$(dirname "$0")" || exit 1
+base="$(dirname "$0")"
 
-cat ./toml.d/*.toml > ~/.config/starship.toml
+cat "$base"/toml.d/*.toml > ~/.config/starship.toml
 
 cat ~/.config/starship.toml
