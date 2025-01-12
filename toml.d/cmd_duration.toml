@@ -1,4 +1,4 @@
 [cmd_duration]
 min_time = 500
 format = '[$duration]($style)'
-style = 'fg:233'
+style = 'fg:245'
