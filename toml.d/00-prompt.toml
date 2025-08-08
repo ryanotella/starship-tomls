@@ -1,5 +1,5 @@
 format = """$all"""
-right_format = """$kubernetes $azure $custom"""
+right_format = """$kubernetes $azure $gcloud $custom"""
 
 [line_break]
 disabled = true

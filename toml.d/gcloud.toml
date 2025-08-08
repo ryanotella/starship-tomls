@@ -1,0 +1,7 @@
+[gcloud]
+disabled = false
+format = '[$symbol$project]($style) '
+symbol = '☁️ '
+style = 'bold blue'
+
+[gcloud.project_aliases]
