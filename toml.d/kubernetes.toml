@@ -1,4 +1,13 @@
 [kubernetes]
 disabled = false
-format = "[$symbol]($style)[$namespace](bold fg:29) [$cluster]($style) "
+format = "[$symbol]($style)[$namespace](bold fg:29) [$context]($style) "
 style = "bold green"
+
+# Per-context aliases (Starship has no cluster_alias, so display $context)
+[[kubernetes.contexts]]
+context_pattern = '.*/api-d0-ocp-dev-education-nsw-gov-au:6443/.*'
+context_alias = 'd0'
+
+[[kubernetes.contexts]]
+context_pattern = '^admin$'
+context_alias = 'd0'
