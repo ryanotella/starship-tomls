@@ -1,8 +1,16 @@
 [aws]
-#symbol = '🅰 '
-#format = 'on [$symbol($profile )(\($region\) )]($style)'
-#force_display = true
-disabled = true
+disabled = false
+symbol = '󰸏 '
+style = 'bold yellow'
+format = '[$symbol($profile )(\($region\) )(\[$duration\] )]($style)'
+expiration_symbol = '⌛'
+
+[aws.profile_aliases]
+'FED-SystemSRE-ocp4-434578704927' = 'SRE-ocp4'
+'Bedrock-763132995384' = 'Bedrock'
+
+[aws.region_aliases]
+ap-southeast-2 = 'syd'
 
 [custom.foo]
 command = ''' $HOME/bin/get-caller-identity ''' # shows output of command
